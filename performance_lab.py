@@ -1,4 +1,4 @@
-# 🔍 Problem 1: Find Most Frequent Element
+# Problem 1: Find Most Frequent Element
 def most_frequent(numbers):
     counts = {}
     for num in numbers:
@@ -16,7 +16,7 @@ Time and Space Analysis for problem 1:
 """
 
 
-# 🔍 Problem 2: Remove Duplicates While Preserving Order
+# Problem 2: Remove Duplicates While Preserving Order
 def remove_duplicates(nums):
     seen = set()
     result = []
@@ -27,7 +27,7 @@ def remove_duplicates(nums):
     return result
 
 """
-Time and Space Analysis for problem 2:
+2. Time and Space Analysis:
 - Best-case: O(n).
 - Worst-case: O(n).
 - Average-case: O(n).
@@ -37,7 +37,7 @@ Time and Space Analysis for problem 2:
 """
 
 
-# 🔍 Problem 3: Return All Pairs That Sum to Target
+# Problem 3: Return All Pairs That Sum to Target
 def find_pairs(nums, target):
     seen = set()
     pairs = []
@@ -59,7 +59,7 @@ Time and Space Analysis for problem 3:
 """
 
 
-# 🔍 Problem 4: Simulate List Resizing (Amortized Cost)
+#Problem 4: Simulate List Resizing (Amortized Cost)
 def add_n_items(n):
     capacity = 2
     size = 0
@@ -78,7 +78,7 @@ def add_n_items(n):
         size += 1
 
 """
-Time and Space Analysis for problem 4:
+4: Time and Space Analysis::
 - Resizes happen when the list reaches capacity.
 - Worst-case for a single append is O(n) due to copying.
 - Amortized time per append is O(1).
@@ -87,7 +87,7 @@ Time and Space Analysis for problem 4:
 """
 
 
-# 🔍 Problem 5: Compute Running Totals
+#Problem 5: Compute Running Totals
 def running_total(nums):
     result = []
     total = 0
@@ -97,13 +97,13 @@ def running_total(nums):
     return result
 
 """
-Time and Space Analysis for problem 5:
+5. Time and Space Analysis:
 - Best-case: O(n).
 - Worst-case: O(n).
 - Average-case: O(n).
 - Space complexity: O(n) because a new list is created.
-- Why this approach? It avoids recalculating sums repeatedly.
-- Could it be optimized? This is already the most efficient approach.
+- It avoids recalculating sums repeatedly.
+- This is already the most efficient approach.
 """
 
 
